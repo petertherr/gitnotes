@@ -9,9 +9,20 @@ git status
 
 
 ******
-if you trigger vim
+if you trigger vim with missing commit message
 -first: type "i" to trigger Insert
 -second: type the commit message you should ave typed to begin with
 -third: hit the esc to stop Insert
 -fourth type :wq to save the message and escape
 **********
+
+git status |=| how many files has changed
+git diff |=| tells me what exactly has changed since last time
+git log |=| lists all commits with IDs and messages
+
+git diff INSERTcommitID1here INSERTcommitID2here |=| tells differece btween two specific commits. Triggers VIM.
+
+*****
+if you trigger vim with get diff
+-type "q" and hit enter to quit.
+******
