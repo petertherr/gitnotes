@@ -2,4 +2,16 @@ git |=| means I'm about to have a git command
 git --version |=| tells me git version
 
 git init |=| tells git to start working
+
 git add |=| tells which files I want to track in this commit(aka version)
+git commit -m "insert label here" |=| saves commit and labels it appropriately
+git status 
+
+
+******
+if you trigger vim
+-first: type "i" to trigger Insert
+-second: type the commit message you should ave typed to begin with
+-third: hit the esc to stop Insert
+-fourth type :wq to save the message and escape
+**********
