@@ -30,3 +30,4 @@ if you trigger vim with get diff
 git branch |=| tells what branch i'm on
 git checkout -b BRANCHNAME |=| switches me to a new branch called BRANCHNAME
 git checkout BRANCHNAME |=| switches me to an existing branch called BRANCHNAME
+git merge BRANCHNAME |=| merges BRANCHNAME into whatever branch you are currently in
