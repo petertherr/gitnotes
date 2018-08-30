@@ -31,3 +31,11 @@ git branch |=| tells what branch i'm on
 git checkout -b BRANCHNAME |=| switches me to a new branch called BRANCHNAME
 git checkout BRANCHNAME |=| switches me to an existing branch called BRANCHNAME
 git merge BRANCHNAME |=| merges BRANCHNAME into whatever branch you are currently in
+git branch -d BRANCHNAME |=| delete BRANCHNAME
+
+
+git remote add orgin INSTERurlHERE |=| sets INSERTurlHERE as the place to upload to, and calls it "orgin"
+git push origin master |=| uploads latest commit (and any previous) from your current branch up to the master branch of "orgin"
+
+git clone INSERTurlHERE |=| downloads a copy of INSERTurlHERE's repo to wherever you are when you call it
+get pull origin master |=| downloads any changes from origin's master branch
