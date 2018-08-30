@@ -1,0 +1,5 @@
+git |=| means I'm about to have a git command
+git --version |=| tells me git version
+
+git init |=| tells git to start working
+git add |=| tells which files I want to track in this commit(aka version)
