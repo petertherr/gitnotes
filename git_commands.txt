@@ -26,3 +26,7 @@ git diff INSERTcommitID1here INSERTcommitID2here |=| tells differece btween two 
 if you trigger vim with get diff
 -type "q" and hit enter to quit.
 ******
+
+git branch |=| tells what branch i'm on
+git checkout -b BRANCHNAME |=| switches me to a new branch called BRANCHNAME
+git checkout BRANCHNAME |=| switches me to an existing branch called BRANCHNAME
